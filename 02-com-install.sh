@@ -28,6 +28,7 @@ sudo apt-get install -y autojump
 
 sudo apt-get install -y firefox
 sudo apt-get install -y chromium-browser
+sudo apt-get install -y flashplugin-installer
 
 #sudo apt-get install -y xpra
 #sudo apt-get install -y skype
