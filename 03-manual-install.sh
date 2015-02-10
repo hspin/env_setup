@@ -28,3 +28,5 @@ sudo apt-get install dunst
 # robomongo
 # tagspaces
 # zulu-crypt
+
+sudo apt-get install msttcorefonts
