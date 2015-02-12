@@ -30,3 +30,4 @@ sudo apt-get install dunst
 # zulu-crypt
 
 sudo apt-get install msttcorefonts
+sudo fc-cache -f -v
