@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ ! -f $HOME/.ssh/id_rsa ]; then
+    echo "keys NOT found"
+    exit
+fi
+
+echo "found"
+
 git clone git@github.com:hspin/env_bash.git $HOME/.hms
 
 cp $HOME/.hms/gitconfig $HOME/.gitconfig
