@@ -1,15 +1,17 @@
 #!/bin/bash
 
 #special
-#sudo apt-get install -y lxc-docker
+sudo apt-get install -y lxc-docker
 
 # pulse audio volume control - install pulse audio
-sudo apt-get install pavucontrol
+sudo apt-get install -y pavucontrol
 # online music
-sudo apt-get install radiotray
+sudo apt-get install -y radiotray
 
-sudo apt-get install libnotify-bin
-sudo apt-get install dunst
+sudo apt-get install -y robomongo
+
+sudo apt-get install -y libnotify-bin
+sudo apt-get install -y dunst
 
 #sudo vi /usr/share/dbus-1/services/org.xfce.xfce4-notifyd.Notifications.service
 #Then replace the line
@@ -18,16 +20,14 @@ sudo apt-get install dunst
 #	Exec=/usr/bin/dunst
 
 
-#sudo apt-get install locales
-#cp /usr/share/zoneinfo/America/New_York /etc/localtime 
-#dpkg-reconfigure locales 
-#locale-gen en_US.UTF-8 
-#/usr/sbin/update-locale LANG=en_US.UTF-8
+sudo apt-get install -y locales
+cp /usr/share/zoneinfo/America/New_York /etc/localtime 
+dpkg-reconfigure locales 
+locale-gen en_US.UTF-8 
+/usr/sbin/update-locale LANG=en_US.UTF-8
 
-
-# robomongo
 # tagspaces
 # zulu-crypt
 
-sudo apt-get install msttcorefonts
+sudo apt-get install -y msttcorefonts
 sudo fc-cache -f -v

@@ -1,12 +1,10 @@
 #!/bin/bash
 
-sudo apt-get install -y rxvt-unicode-256color
 sudo apt-get install -y i3
 sudo apt-get install -y xclip 
 sudo apt-get install -y keychain
 
 sudo apt-get install -y lm-sensors
-sudo apt-get install -y locales
 sudo apt-get install -y mlocate
 sudo apt-get install -y p7zip-full
 sudo apt-get install -y pass
