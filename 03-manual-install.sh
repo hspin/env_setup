@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#special
-sudo apt-get install -y lxc-docker
-
 # pulse audio volume control - install pulse audio
 sudo apt-get install -y pavucontrol
 # online music
@@ -27,7 +24,6 @@ locale-gen en_US.UTF-8
 /usr/sbin/update-locale LANG=en_US.UTF-8
 
 # tagspaces
-# zulu-crypt
 
 sudo apt-get install -y msttcorefonts
 sudo fc-cache -f -v
