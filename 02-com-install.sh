@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt-get install -y xfce4-terminal
 sudo apt-get install -y i3
 sudo apt-get install -y xclip 
 sudo apt-get install -y keychain
