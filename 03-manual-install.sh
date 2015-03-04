@@ -5,7 +5,7 @@ sudo apt-get install -y pavucontrol
 # online music
 sudo apt-get install -y radiotray
 
-sudo apt-get install -y robomongo
+sudo apt-get install -y encfs
 
 sudo apt-get install -y libnotify-bin
 sudo apt-get install -y dunst
@@ -18,10 +18,10 @@ sudo apt-get install -y dunst
 
 
 sudo apt-get install -y locales
-cp /usr/share/zoneinfo/America/New_York /etc/localtime 
-dpkg-reconfigure locales 
-locale-gen en_US.UTF-8 
-/usr/sbin/update-locale LANG=en_US.UTF-8
+sudo cp /usr/share/zoneinfo/America/New_York /etc/localtime 
+sudo dpkg-reconfigure locales 
+sudo locale-gen en_US.UTF-8 
+sudo /usr/sbin/update-locale LANG=en_US.UTF-8
 
 # tagspaces
 
