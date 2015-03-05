@@ -24,7 +24,7 @@ sudo apt-get install -y xchat
 sudo apt-get install -y xscreensaver
 sudo apt-get install -y tty-clock
 sudo apt-get install -y autojump
-sudo apt-get install -y cifs-util
+sudo apt-get install -y cifs-utils
 sudo apt-get install -y cryptsetup-bin
 
 sudo apt-get install -y firefox
