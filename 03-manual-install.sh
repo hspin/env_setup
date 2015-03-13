@@ -10,6 +10,9 @@ sudo apt-get install -y encfs
 sudo apt-get install -y libnotify-bin
 sudo apt-get install -y dunst
 
+# might need to uninstall original daemon
+# sudo apt-get remove xfce4-notifyd
+# sudo apt-get remove notification-daemon
 #sudo vi /usr/share/dbus-1/services/org.xfce.xfce4-notifyd.Notifications.service
 #Then replace the line
 #	Exec=/usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
