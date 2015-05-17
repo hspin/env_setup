@@ -7,7 +7,7 @@
 sudo add-apt-repository ppa:no1wantdthisname/ppa
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install fontconfig-infinality
+sudo apt-get install -y fontconfig-infinality
 
 # pulse audio volume control - install pulse audio
 sudo apt-get install -y pavucontrol
