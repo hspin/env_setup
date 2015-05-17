@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#special
+
+# fonts
+
+sudo add-apt-repository ppa:no1wantdthisname/ppa
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install fontconfig-infinality
+
 # pulse audio volume control - install pulse audio
 sudo apt-get install -y pavucontrol
 # online music
@@ -18,7 +27,6 @@ sudo apt-get install -y dunst
 #	Exec=/usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
 #with this one
 #	Exec=/usr/bin/dunst
-
 
 sudo apt-get install -y locales
 sudo cp /usr/share/zoneinfo/America/New_York /etc/localtime 
