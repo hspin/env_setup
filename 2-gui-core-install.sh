@@ -28,6 +28,11 @@ sudo apt-get install -y tty-clock
 sudo apt-get install -y autojump
 sudo apt-get install -y cifs-utils
 sudo apt-get install -y cryptsetup-bin
+sudo apt-get install -y cmatrix
+sudo apt-get install -y gpicview
+sudo apt-get install -y jpegoptim
+sudo apt-get install -y xournal
+sudo apt-get install -y giggle
 
 sudo apt-get install -y firefox
 sudo apt-get install -y chromium-browser
